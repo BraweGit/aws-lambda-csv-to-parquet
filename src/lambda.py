@@ -83,8 +83,3 @@ def lambda_handler(event, context):
         df = transform(df)
         result = load(df, s3_output_file_path)
         return result
-
-
-        
-       
-
